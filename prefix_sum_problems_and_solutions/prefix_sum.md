@@ -9,13 +9,6 @@
 	```
 	(or `P[i]` might sometimes represent the sum of elements up to and including `A[i]`, depending on your indexing choice).
 
-## Why Use It?
-- **Fast Range Queries:** Once you have the prefix sums, you can quickly calculate the sum of any subarray `A[i..j]` by:
-	```
-	sum(A[i..j]) = P[j + 1] - P[i]
-	```
-  This works because `P[j + 1]` holds the sum of elements from index `0` to `j`, and `P[i]` is the sum from index `0` to `i - 1`.
-
 ## Typical Steps
 1. Compute the prefix sum array.
 2. Use the prefix sums to answer queries about subarray sums or to detect subarrays meeting certain conditions.
