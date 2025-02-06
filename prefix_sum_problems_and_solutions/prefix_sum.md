@@ -9,10 +9,6 @@
 	```
 	(or `P[i]` might sometimes represent the sum of elements up to and including `A[i]`, depending on your indexing choice).
 
-## Typical Steps
-1. Compute the prefix sum array.
-2. Use the prefix sums to answer queries about subarray sums or to detect subarrays meeting certain conditions.
-
 ## Common Applications
 - **Range Sum Queries:** Quickly determine the sum of any segment in O(1) time after O(n) preprocessing.
 - **Subarray Sum Problems:** Find subarrays that sum to a particular target (commonly used with a hash map to manage frequencies of prefix sums).
