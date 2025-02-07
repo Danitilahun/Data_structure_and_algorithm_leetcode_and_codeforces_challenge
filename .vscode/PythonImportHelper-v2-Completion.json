@@ -1,0 +1,145 @@
+[
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "class Solution:\n\tdef subarraySum(self, nums: List[int], k: int) -> int:\n\t\tprefix_map = {0: 1}\n\t\trunning_sum = 0\n\t\tsubarray_count = 0\n\t\tfor ind in range(len(nums)):\n\t\t\trunning_sum += nums[ind]\n\t\t\tdifference = running_sum - k\n\t\t\tif difference in prefix_map:\n\t\t\t\tsubarray_count += prefix_map[difference]",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "run_tests",
+        "kind": 2,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "def run_tests():\n\tsol = Solution()\n\ttest_cases = [\n\t\t{\"nums\": [1, 1, 1], \"k\": 2, \"expected\": 2},\n\t\t{\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 2},\n\t\t# This test case is intentionally wrong to demonstrate error logging:\n\t\t{\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 3}\n\t]\n\tall_passed = True\n\tfor i, test in enumerate(test_cases, start=1):",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tprefix_map",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "\t\tprefix_map = {0: 1}\n\t\trunning_sum = 0\n\t\tsubarray_count = 0\n\t\tfor ind in range(len(nums)):\n\t\t\trunning_sum += nums[ind]\n\t\t\tdifference = running_sum - k\n\t\t\tif difference in prefix_map:\n\t\t\t\tsubarray_count += prefix_map[difference]\n\t\t\tprefix_map[running_sum] = 1 + prefix_map.get(running_sum, 0)\n\t\treturn subarray_count",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\t\trunning_sum",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "\t\trunning_sum = 0\n\t\tsubarray_count = 0\n\t\tfor ind in range(len(nums)):\n\t\t\trunning_sum += nums[ind]\n\t\t\tdifference = running_sum - k\n\t\t\tif difference in prefix_map:\n\t\t\t\tsubarray_count += prefix_map[difference]\n\t\t\tprefix_map[running_sum] = 1 + prefix_map.get(running_sum, 0)\n\t\treturn subarray_count\ndef run_tests():",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tsubarray_count",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "\t\tsubarray_count = 0\n\t\tfor ind in range(len(nums)):\n\t\t\trunning_sum += nums[ind]\n\t\t\tdifference = running_sum - k\n\t\t\tif difference in prefix_map:\n\t\t\t\tsubarray_count += prefix_map[difference]\n\t\t\tprefix_map[running_sum] = 1 + prefix_map.get(running_sum, 0)\n\t\treturn subarray_count\ndef run_tests():\n\tsol = Solution()",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tdifference",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "\t\t\tdifference = running_sum - k\n\t\t\tif difference in prefix_map:\n\t\t\t\tsubarray_count += prefix_map[difference]\n\t\t\tprefix_map[running_sum] = 1 + prefix_map.get(running_sum, 0)\n\t\treturn subarray_count\ndef run_tests():\n\tsol = Solution()\n\ttest_cases = [\n\t\t{\"nums\": [1, 1, 1], \"k\": 2, \"expected\": 2},\n\t\t{\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 2},",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tprefix_map[running_sum]",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "\t\t\tprefix_map[running_sum] = 1 + prefix_map.get(running_sum, 0)\n\t\treturn subarray_count\ndef run_tests():\n\tsol = Solution()\n\ttest_cases = [\n\t\t{\"nums\": [1, 1, 1], \"k\": 2, \"expected\": 2},\n\t\t{\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 2},\n\t\t# This test case is intentionally wrong to demonstrate error logging:\n\t\t{\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 3}\n\t]",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\tsol",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "\tsol = Solution()\n\ttest_cases = [\n\t\t{\"nums\": [1, 1, 1], \"k\": 2, \"expected\": 2},\n\t\t{\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 2},\n\t\t# This test case is intentionally wrong to demonstrate error logging:\n\t\t{\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 3}\n\t]\n\tall_passed = True\n\tfor i, test in enumerate(test_cases, start=1):\n\t\tnums = test[\"nums\"]",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\ttest_cases",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "\ttest_cases = [\n\t\t{\"nums\": [1, 1, 1], \"k\": 2, \"expected\": 2},\n\t\t{\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 2},\n\t\t# This test case is intentionally wrong to demonstrate error logging:\n\t\t{\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 3}\n\t]\n\tall_passed = True\n\tfor i, test in enumerate(test_cases, start=1):\n\t\tnums = test[\"nums\"]\n\t\tk = test[\"k\"]",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\tall_passed",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "\tall_passed = True\n\tfor i, test in enumerate(test_cases, start=1):\n\t\tnums = test[\"nums\"]\n\t\tk = test[\"k\"]\n\t\texpected = test[\"expected\"]\n\t\tresult = sol.subarraySum(nums, k)\n\t\tif result != expected:\n\t\t\tall_passed = False\n\t\t\tprint(f\"Error in Test Case {i}:\")\n\t\t\tprint(f\"\\tInput: nums = {nums}, k = {k}\")",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tnums",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "\t\tnums = test[\"nums\"]\n\t\tk = test[\"k\"]\n\t\texpected = test[\"expected\"]\n\t\tresult = sol.subarraySum(nums, k)\n\t\tif result != expected:\n\t\t\tall_passed = False\n\t\t\tprint(f\"Error in Test Case {i}:\")\n\t\t\tprint(f\"\\tInput: nums = {nums}, k = {k}\")\n\t\t\tprint(f\"\\tExpected: {expected}\")\n\t\t\tprint(f\"\\tGot: {result}\")",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tk",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "\t\tk = test[\"k\"]\n\t\texpected = test[\"expected\"]\n\t\tresult = sol.subarraySum(nums, k)\n\t\tif result != expected:\n\t\t\tall_passed = False\n\t\t\tprint(f\"Error in Test Case {i}:\")\n\t\t\tprint(f\"\\tInput: nums = {nums}, k = {k}\")\n\t\t\tprint(f\"\\tExpected: {expected}\")\n\t\t\tprint(f\"\\tGot: {result}\")\n\t\telse:",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\t\texpected",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "\t\texpected = test[\"expected\"]\n\t\tresult = sol.subarraySum(nums, k)\n\t\tif result != expected:\n\t\t\tall_passed = False\n\t\t\tprint(f\"Error in Test Case {i}:\")\n\t\t\tprint(f\"\\tInput: nums = {nums}, k = {k}\")\n\t\t\tprint(f\"\\tExpected: {expected}\")\n\t\t\tprint(f\"\\tGot: {result}\")\n\t\telse:\n\t\t\tprint(f\"Test Case {i} passed.\")",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tresult",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "\t\tresult = sol.subarraySum(nums, k)\n\t\tif result != expected:\n\t\t\tall_passed = False\n\t\t\tprint(f\"Error in Test Case {i}:\")\n\t\t\tprint(f\"\\tInput: nums = {nums}, k = {k}\")\n\t\t\tprint(f\"\\tExpected: {expected}\")\n\t\t\tprint(f\"\\tGot: {result}\")\n\t\telse:\n\t\t\tprint(f\"Test Case {i} passed.\")\n\tif all_passed:",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tall_passed",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "peekOfCode": "\t\t\tall_passed = False\n\t\t\tprint(f\"Error in Test Case {i}:\")\n\t\t\tprint(f\"\\tInput: nums = {nums}, k = {k}\")\n\t\t\tprint(f\"\\tExpected: {expected}\")\n\t\t\tprint(f\"\\tGot: {result}\")\n\t\telse:\n\t\t\tprint(f\"Test Case {i} passed.\")\n\tif all_passed:\n\t\tprint(\"All test cases passed!\")\n\telse:",
+        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "documentation": {}
+    }
+]
