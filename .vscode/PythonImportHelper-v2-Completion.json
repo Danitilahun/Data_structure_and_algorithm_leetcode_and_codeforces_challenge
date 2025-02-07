@@ -8,93 +8,164 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "maxSubArrayLen",
+        "kind": 2,
+        "importPath": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "description": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "peekOfCode": "def maxSubArrayLen(nums: List[int], k: int) -> int:\n\tn = len(nums)\n\tans = 0\n\tprefix_map = {0: -1}\n\tsum_val = 0\n\tfor i in range(n):\n\t\tsum_val += nums[i]\n\t\tif sum_val - k in prefix_map:\n\t\t\tans = max(ans, i - prefix_map[sum_val - k])\n\t\tif sum_val not in prefix_map:",
+        "detail": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\tn",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "description": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "peekOfCode": "\tn = len(nums)\n\tans = 0\n\tprefix_map = {0: -1}\n\tsum_val = 0\n\tfor i in range(n):\n\t\tsum_val += nums[i]\n\t\tif sum_val - k in prefix_map:\n\t\t\tans = max(ans, i - prefix_map[sum_val - k])\n\t\tif sum_val not in prefix_map:\n\t\t\tprefix_map[sum_val] = i",
+        "detail": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\tans",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "description": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "peekOfCode": "\tans = 0\n\tprefix_map = {0: -1}\n\tsum_val = 0\n\tfor i in range(n):\n\t\tsum_val += nums[i]\n\t\tif sum_val - k in prefix_map:\n\t\t\tans = max(ans, i - prefix_map[sum_val - k])\n\t\tif sum_val not in prefix_map:\n\t\t\tprefix_map[sum_val] = i\n\treturn ans",
+        "detail": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\tprefix_map",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "description": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "peekOfCode": "\tprefix_map = {0: -1}\n\tsum_val = 0\n\tfor i in range(n):\n\t\tsum_val += nums[i]\n\t\tif sum_val - k in prefix_map:\n\t\t\tans = max(ans, i - prefix_map[sum_val - k])\n\t\tif sum_val not in prefix_map:\n\t\t\tprefix_map[sum_val] = i\n\treturn ans",
+        "detail": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\tsum_val",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "description": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "peekOfCode": "\tsum_val = 0\n\tfor i in range(n):\n\t\tsum_val += nums[i]\n\t\tif sum_val - k in prefix_map:\n\t\t\tans = max(ans, i - prefix_map[sum_val - k])\n\t\tif sum_val not in prefix_map:\n\t\t\tprefix_map[sum_val] = i\n\treturn ans",
+        "detail": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tans",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "description": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "peekOfCode": "\t\t\tans = max(ans, i - prefix_map[sum_val - k])\n\t\tif sum_val not in prefix_map:\n\t\t\tprefix_map[sum_val] = i\n\treturn ans",
+        "detail": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tprefix_map[sum_val]",
+        "kind": 5,
+        "importPath": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "description": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "peekOfCode": "\t\t\tprefix_map[sum_val] = i\n\treturn ans",
+        "detail": "prefix_sum_problems_and_solutions.325_Maximum_Size_Subarray_Sum_Equals_k",
+        "documentation": {}
+    },
+    {
         "label": "Solution",
         "kind": 6,
-        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
-        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "importPath": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
+        "description": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "peekOfCode": "class Solution:\n    def subarraySum(self, nums: List[int], k: int) -> int:\n        subarray_count = 0\n        sum_freq = {0: 1}\n        prefix_sum = 0\n        for num in nums:\n            prefix_sum += num\n            difference = prefix_sum - k\n            if difference in sum_freq:\n                subarray_count += sum_freq[difference]",
-        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "detail": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "documentation": {}
     },
     {
         "label": "run_tests",
         "kind": 2,
-        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
-        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "importPath": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
+        "description": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "peekOfCode": "def run_tests():\n\tsol = Solution()\n\ttest_cases = [\n\t\t{\"nums\": [1, 1, 1], \"k\": 2, \"expected\": 2},\n\t\t# # This test case is intentionally wrong to demonstrate error logging:\n\t\t# {\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 3},\n\t\t{\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 2}\n\t]\n\ttotal_tests = len(test_cases)\n\tpassed_tests = 0",
-        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "detail": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "documentation": {}
     },
     {
         "label": "\tsol",
         "kind": 5,
-        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
-        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "importPath": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
+        "description": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "peekOfCode": "\tsol = Solution()\n\ttest_cases = [\n\t\t{\"nums\": [1, 1, 1], \"k\": 2, \"expected\": 2},\n\t\t# # This test case is intentionally wrong to demonstrate error logging:\n\t\t# {\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 3},\n\t\t{\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 2}\n\t]\n\ttotal_tests = len(test_cases)\n\tpassed_tests = 0\n\tfor test in test_cases:",
-        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "detail": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "documentation": {}
     },
     {
         "label": "\ttest_cases",
         "kind": 5,
-        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
-        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "importPath": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
+        "description": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "peekOfCode": "\ttest_cases = [\n\t\t{\"nums\": [1, 1, 1], \"k\": 2, \"expected\": 2},\n\t\t# # This test case is intentionally wrong to demonstrate error logging:\n\t\t# {\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 3},\n\t\t{\"nums\": [1, 2, 3], \"k\": 3, \"expected\": 2}\n\t]\n\ttotal_tests = len(test_cases)\n\tpassed_tests = 0\n\tfor test in test_cases:\n\t\tnums = test[\"nums\"]",
-        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "detail": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "documentation": {}
     },
     {
         "label": "\ttotal_tests",
         "kind": 5,
-        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
-        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "importPath": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
+        "description": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "peekOfCode": "\ttotal_tests = len(test_cases)\n\tpassed_tests = 0\n\tfor test in test_cases:\n\t\tnums = test[\"nums\"]\n\t\tk = test[\"k\"]\n\t\texpected = test[\"expected\"]\n\t\tresult = sol.subarraySum(nums, k)\n\t\tif result != expected:\n\t\t\tprint(\"A test case failed:\")\n\t\t\tprint(f\"\\tInput: nums = {nums}, k = {k}\")",
-        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "detail": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "documentation": {}
     },
     {
         "label": "\tpassed_tests",
         "kind": 5,
-        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
-        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "importPath": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
+        "description": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "peekOfCode": "\tpassed_tests = 0\n\tfor test in test_cases:\n\t\tnums = test[\"nums\"]\n\t\tk = test[\"k\"]\n\t\texpected = test[\"expected\"]\n\t\tresult = sol.subarraySum(nums, k)\n\t\tif result != expected:\n\t\t\tprint(\"A test case failed:\")\n\t\t\tprint(f\"\\tInput: nums = {nums}, k = {k}\")\n\t\t\tprint(f\"\\tExpected: {expected}\")",
-        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "detail": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "documentation": {}
     },
     {
         "label": "\t\tnums",
         "kind": 5,
-        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
-        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "importPath": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
+        "description": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "peekOfCode": "\t\tnums = test[\"nums\"]\n\t\tk = test[\"k\"]\n\t\texpected = test[\"expected\"]\n\t\tresult = sol.subarraySum(nums, k)\n\t\tif result != expected:\n\t\t\tprint(\"A test case failed:\")\n\t\t\tprint(f\"\\tInput: nums = {nums}, k = {k}\")\n\t\t\tprint(f\"\\tExpected: {expected}\")\n\t\t\tprint(f\"\\tGot: {result}\")\n\t\t\tprint(f\"Total tests passed before error: {passed_tests} out of {total_tests}\")",
-        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "detail": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "documentation": {}
     },
     {
         "label": "\t\tk",
         "kind": 5,
-        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
-        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "importPath": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
+        "description": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "peekOfCode": "\t\tk = test[\"k\"]\n\t\texpected = test[\"expected\"]\n\t\tresult = sol.subarraySum(nums, k)\n\t\tif result != expected:\n\t\t\tprint(\"A test case failed:\")\n\t\t\tprint(f\"\\tInput: nums = {nums}, k = {k}\")\n\t\t\tprint(f\"\\tExpected: {expected}\")\n\t\t\tprint(f\"\\tGot: {result}\")\n\t\t\tprint(f\"Total tests passed before error: {passed_tests} out of {total_tests}\")\n\t\t\traise SystemExit(\"Test case failed. Stopping further execution.\")",
-        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "detail": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "documentation": {}
     },
     {
         "label": "\t\texpected",
         "kind": 5,
-        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
-        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "importPath": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
+        "description": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "peekOfCode": "\t\texpected = test[\"expected\"]\n\t\tresult = sol.subarraySum(nums, k)\n\t\tif result != expected:\n\t\t\tprint(\"A test case failed:\")\n\t\t\tprint(f\"\\tInput: nums = {nums}, k = {k}\")\n\t\t\tprint(f\"\\tExpected: {expected}\")\n\t\t\tprint(f\"\\tGot: {result}\")\n\t\t\tprint(f\"Total tests passed before error: {passed_tests} out of {total_tests}\")\n\t\t\traise SystemExit(\"Test case failed. Stopping further execution.\")\n\t\telse:",
-        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "detail": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "documentation": {}
     },
     {
         "label": "\t\tresult",
         "kind": 5,
-        "importPath": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
-        "description": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "importPath": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
+        "description": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "peekOfCode": "\t\tresult = sol.subarraySum(nums, k)\n\t\tif result != expected:\n\t\t\tprint(\"A test case failed:\")\n\t\t\tprint(f\"\\tInput: nums = {nums}, k = {k}\")\n\t\t\tprint(f\"\\tExpected: {expected}\")\n\t\t\tprint(f\"\\tGot: {result}\")\n\t\t\tprint(f\"Total tests passed before error: {passed_tests} out of {total_tests}\")\n\t\t\traise SystemExit(\"Test case failed. Stopping further execution.\")\n\t\telse:\n\t\t\tpassed_tests += 1",
-        "detail": "prefix_sum_problems_and_solutions.subarray_sum_equals_k",
+        "detail": "prefix_sum_problems_and_solutions.560_Subarray_Sum_Equals_K",
         "documentation": {}
     }
 ]
