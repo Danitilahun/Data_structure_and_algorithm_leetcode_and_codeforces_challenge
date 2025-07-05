@@ -1,6 +1,7 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
         # Recursion Solution , Time complexity  -> O(2^n) , Space complexity  -> O(2^n) 
+
         # def helper(idx):
         #     if idx == 0: return nums[idx]
         #     if idx < 0 : return 0
@@ -11,7 +12,7 @@ class Solution:
         #     return max(left, right)
         # return helper(len(nums)-1)
 
-        # DP Memoization 
+        # DP Memoization , Time complexity  -> O(n) , Space complexity  -> O(n)(Recursion Stack) + O(n)(DP memoization array)
         
         # dp = [-1] * len(nums)
         # def helper(idx):
@@ -29,7 +30,8 @@ class Solution:
 
         # return helper(len(nums)-1)
 
-        # DP tabulation 
+        # DP tabulation , Time complexity  -> O(n) , Space complexity  -> O(n)(DP memoization array)
+
         # length = len(nums)
         # dp = [-1] * length
         # dp[0] = nums[0]
@@ -44,7 +46,7 @@ class Solution:
         #     answer = max(answer, dp[idx])
         # return answer
 
-        # DP memory optimization
+        # DP memory optimization , Time complexity  -> O(n) , Space complexity  -> O(1)
 
         length = len(nums)
         prev_value = nums[0]
