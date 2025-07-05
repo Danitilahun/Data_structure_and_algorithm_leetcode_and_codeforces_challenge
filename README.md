@@ -24,4 +24,12 @@ The goal is to document each challenge thoroughly — including the problem stat
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0292-nim-game) |
+## Array
+|  |
+| ------- |
+| [0198-house-robber](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0198-house-robber) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0198-house-robber](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0198-house-robber) |
 <!---LeetCode Topics End-->
