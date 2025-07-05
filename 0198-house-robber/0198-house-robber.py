@@ -30,18 +30,39 @@ class Solution:
         # return helper(len(nums)-1)
 
         # DP tabulation 
+        # length = len(nums)
+        # dp = [-1] * length
+        # dp[0] = nums[0]
+        # answer = dp[0] 
+
+        # for idx in range(1,length):
+        #     take = nums[idx] + (dp[idx-2] if idx - 2 >= 0 else 0)
+        #     not_take = 0 + dp[idx-1]
+            
+        #     dp[idx] = max(take, not_take)
+            
+        #     answer = max(answer, dp[idx])
+        # return answer
+
+        # DP memory optimization
+
         length = len(nums)
-        dp = [-1] * length
-        dp[0] = nums[0]
-        answer = dp[0] 
+        prev_value = nums[0]
+        prev_prev_value = 0
+
+        answer = prev_value
 
         for idx in range(1,length):
-            take = nums[idx] + (dp[idx-2] if idx - 2 >= 0 else 0)
-            not_take = 0 + dp[idx-1]
+            take = nums[idx] + (prev_prev_value if idx - 2 >= 0 else 0)
+            not_take = 0 + prev_value
             
-            dp[idx] = max(take, not_take)
+            current_value = max(take, not_take)
             
-            answer = max(answer, dp[idx])
+            answer = max(answer, current_value)
+
+            prev_prev_value = prev_value
+            prev_value = current_value
+            
         return answer
 
 
