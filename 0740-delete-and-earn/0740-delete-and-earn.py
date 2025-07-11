@@ -5,9 +5,9 @@ class Solution:
         for num in nums:
             freq[num]+=1
 
-        dp = [-1]*(10002)
-
         # DP - Memoization
+
+        # dp = [-1]*(10002)
     
         # def helper(idx):
 
@@ -25,18 +25,39 @@ class Solution:
 
         # DP - Tabulation
 
-        dp[0] = 0
-        dp[1] = freq[1]
-        answer = dp[1]
+        # dp = [-1]*(10002)
+
+        # dp[0] = 0
+        # dp[1] = freq[1]
+        # answer = dp[1]
+        # for idx in range(2,10002):
+
+        #     take = idx * freq[idx] + dp[idx-2]
+        #     not_take = 0 + dp[idx-1]
+
+        #     dp[idx] = max(take, not_take)
+
+        #     answer = max(answer,dp[idx])
+        
+        # return answer
+
+        # DP- Space Optimization
+
+        prev_prev = 0
+        prev = freq[1]
+        answer = prev
         for idx in range(2,10002):
 
-            take = idx * freq[idx] + dp[idx-2]
-            not_take = 0 + dp[idx-1]
+            take = idx * freq[idx] + prev_prev
+            not_take = 0 + prev
 
-            dp[idx] = max(take, not_take)
+            current = max(take, not_take)
+            prev_prev = prev
+            prev = current
 
-            answer = max(answer,dp[idx])
+            answer = max(answer,current)
         
         return answer
+
             
         
