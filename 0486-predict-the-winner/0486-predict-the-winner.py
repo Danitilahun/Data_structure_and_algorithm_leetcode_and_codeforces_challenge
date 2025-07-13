@@ -6,7 +6,7 @@ class Solution:
         def helper(left: int, right: int, turn: int):
             
             if left == right:
-                return nums[left]
+                return nums[left]*turn
             if dp[left][right] != -1: return dp[left][right]
             
             take_from_left = nums[left]*turn + helper(left+1,right, -turn)
