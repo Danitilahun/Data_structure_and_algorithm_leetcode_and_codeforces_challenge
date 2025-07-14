@@ -4,6 +4,8 @@ class Solution:
         if (n<=3):
             return n
         
+        # DP - Memoization
+        
         # dp=[-1]*n
 
         # def count_distinct_ways(step_sum):
@@ -23,6 +25,8 @@ class Solution:
         
         # return count_distinct_ways(0)
 
+        # DP - Tabulation
+
         # dp=[-1]*n
 
         # dp[0] = 1
@@ -33,6 +37,8 @@ class Solution:
         #     dp[idx] = dp[idx-1] + dp[idx-2]
         
         # return dp[n-1]
+
+        # DP - Space optimization
 
         previous_previous = 1
         previous = 2
