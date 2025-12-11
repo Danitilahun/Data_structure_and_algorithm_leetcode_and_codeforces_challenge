@@ -1,4 +1,3 @@
-import math
 class Solution:
     def dividePlayers(self, skill: List[int]) -> int:
         skill.sort()
