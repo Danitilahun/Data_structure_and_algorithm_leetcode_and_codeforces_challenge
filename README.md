@@ -19,6 +19,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | [0070-climbing-stairs](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0070-climbing-stairs) |
 | [0292-nim-game](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0292-nim-game) |
 | [0486-predict-the-winner](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0486-predict-the-winner) |
+| [0633-sum-of-square-numbers](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0633-sum-of-square-numbers) |
 | [2050-count-good-numbers](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2050-count-good-numbers) |
 ## Brainteaser
 |  |
@@ -75,6 +76,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0011-container-with-most-water) |
+| [0633-sum-of-square-numbers](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0633-sum-of-square-numbers) |
 | [0881-boats-to-save-people](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0881-boats-to-save-people) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 ## Sorting
@@ -87,4 +89,8 @@ The goal is to document each challenge thoroughly — including the problem stat
 | ------- |
 | [0011-container-with-most-water](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0011-container-with-most-water) |
 | [0881-boats-to-save-people](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0881-boats-to-save-people) |
+## Binary Search
+|  |
+| ------- |
+| [0633-sum-of-square-numbers](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0633-sum-of-square-numbers) |
 <!---LeetCode Topics End-->
