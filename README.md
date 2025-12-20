@@ -54,6 +54,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 |  |
 | ------- |
 | [0740-delete-and-earn](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0740-delete-and-earn) |
+| [0763-partition-labels](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0763-partition-labels) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 ## Recursion
 |  |
@@ -68,6 +69,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0067-add-binary) |
+| [0763-partition-labels](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0763-partition-labels) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -84,6 +86,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | [0088-merge-sorted-array](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0189-rotate-array) |
 | [0633-sum-of-square-numbers](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0633-sum-of-square-numbers) |
+| [0763-partition-labels](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0763-partition-labels) |
 | [0881-boats-to-save-people](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0881-boats-to-save-people) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 ## Sorting
@@ -96,6 +99,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0011-container-with-most-water) |
+| [0763-partition-labels](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0763-partition-labels) |
 | [0881-boats-to-save-people](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0881-boats-to-save-people) |
 ## Binary Search
 |  |
