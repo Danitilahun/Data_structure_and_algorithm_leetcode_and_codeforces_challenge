@@ -115,4 +115,12 @@ The goal is to document each challenge thoroughly — including the problem stat
 |  |
 | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/1004-max-consecutive-ones-iii) |
+## Linked List
+|  |
+| ------- |
+| [0707-design-linked-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0707-design-linked-list) |
+## Design
+|  |
+| ------- |
+| [0707-design-linked-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0707-design-linked-list) |
 <!---LeetCode Topics End-->
