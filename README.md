@@ -60,6 +60,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 ## Recursion
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0206-reverse-linked-list) |
 | [0486-predict-the-winner](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0486-predict-the-winner) |
 | [2050-count-good-numbers](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2050-count-good-numbers) |
 ## Memoization
@@ -118,6 +119,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 ## Linked List
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0206-reverse-linked-list) |
 | [0707-design-linked-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0707-design-linked-list) |
 ## Design
 |  |
