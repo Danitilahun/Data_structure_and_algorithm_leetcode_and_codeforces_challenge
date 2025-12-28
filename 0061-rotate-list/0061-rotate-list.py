@@ -8,9 +8,12 @@ class Solution:
         """
         Approach 1: Brute force
         - Tool : Rotate(k)≡Reverse(All)+Reverse(0…k)+Reverse(k…N)
-        - Convert the linked list to an array, reverse the array,reverse the first k elements, 
-        reverse k to length [k:], and then use the array value to create a new linked list and return its head.
+        - First, Serialize the linked list to an array. Next, reverse the entire array, followed by 
+        localized reversal of the prefix (0...k), and the suffix(k...end). 
+        Finally reconstact the linked list based on the new array and return the new head.
+
         - Costly in terms of space. 
+        
         Time Complexity : O(N) , Space Complexity : O(N)
 
         Approach 2: Inplace
@@ -33,7 +36,7 @@ class Solution:
 
         length = 1
         current = head
-        
+
         if not current:
             return head
         
