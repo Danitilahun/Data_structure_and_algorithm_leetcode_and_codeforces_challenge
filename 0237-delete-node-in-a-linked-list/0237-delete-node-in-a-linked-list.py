@@ -12,7 +12,7 @@ class Solution:
         """
         
         """
-        Approach : Shift the node values
+        Approach 1: Shift the node values
         - Since we are guaranteed that the give node is not last node, we can traverse the linkedlist 
           starting from the node and update the value of the current node with the value of 
           current.next.val until current.next.next is not null.
@@ -24,11 +24,27 @@ class Solution:
 
          Time Complexity : O(K) , K is number of element after the given node.
          Space Complexity : O(1)
-        """
-        
-        while node.next.next:
-            node.val = node.next.val
-            node = node.next
 
+        Approach 2: Constant time solution
+        - Build on top of solution one, After I change the value of the node with the value of its next,
+        what if I remove the next element ? 
+        Algorith:
+        - Make the value of the node to be the value of node.next.val
+        - Update the node.next to be node.next.next
+
+        Time Complexity : O(1) 
+        Space Complexity : O(1)
+
+        """
+        # Approach 1:
+        # while node.next.next:
+        #     node.val = node.next.val
+        #     node = node.next
+
+        # node.val = node.next.val
+        # node.next = None
+
+        # Approach 2:
         node.val = node.next.val
-        node.next = None
+        node.next = node.next.next
+        
