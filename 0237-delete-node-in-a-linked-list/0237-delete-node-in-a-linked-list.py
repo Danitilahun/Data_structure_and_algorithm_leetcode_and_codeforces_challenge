@@ -21,6 +21,9 @@ class Solution:
         - Else traverse the linked list using the condition node.next.next is not null. 
         - Update the value of each node with the value of its adjecent node
         - finally make node.next null.
+
+         Time Complexity : O(K) , K is number of element after the given node.
+         Space Complexity : O(1)
         """
         
         while node.next.next:
