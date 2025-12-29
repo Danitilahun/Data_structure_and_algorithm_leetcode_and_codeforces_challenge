@@ -25,7 +25,7 @@ class Solution:
         the new node. to Handle edge case when the last sum is above 10 and when they have equal length
         - return dummy.next
 
-        Time Complexity : O(N)
+        Time Complexity :  O(max(N,M))
         Space Complexity: O(max(N,M))
         """
 
