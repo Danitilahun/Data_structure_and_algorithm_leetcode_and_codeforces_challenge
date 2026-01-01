@@ -55,6 +55,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 ## Hash Table
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0141-linked-list-cycle) |
 | [0740-delete-and-earn](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0740-delete-and-earn) |
 | [0763-partition-labels](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0763-partition-labels) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2491-divide-players-into-teams-of-equal-skill) |
@@ -93,6 +94,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | [0061-rotate-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0086-partition-list) |
 | [0088-merge-sorted-array](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0088-merge-sorted-array) |
+| [0141-linked-list-cycle](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0141-linked-list-cycle) |
 | [0189-rotate-array](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0234-palindrome-linked-list) |
 | [0633-sum-of-square-numbers](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0633-sum-of-square-numbers) |
@@ -135,6 +137,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | [0083-remove-duplicates-from-sorted-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0086-partition-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0086-partition-list) |
 | [0092-reverse-linked-list-ii](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0092-reverse-linked-list-ii) |
+| [0141-linked-list-cycle](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0237-delete-node-in-a-linked-list) |
