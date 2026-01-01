@@ -35,13 +35,10 @@ class Solution:
         hare = head
         tortoise = head
 
-        while tortoise:
+        while tortoise and tortoise.next:
             hare = hare.next
             
-            tortoise = tortoise.next
-
-            if tortoise:
-                tortoise = tortoise.next
+            tortoise = tortoise.next.next
             
             if hare == tortoise:
                 return True
