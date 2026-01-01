@@ -27,24 +27,16 @@ class Solution:
         tortoise = head
         hare = head
 
-        found = False
-
         while hare and hare.next:
             hare = hare.next.next
             tortoise = tortoise.next
 
             if hare == tortoise:
-                found = True
-                break
-        
-        if found:
-            index = 0 
-            tortoise = head
-            while tortoise != hare:
-                hare = hare.next
-                tortoise = tortoise.next
-                index+=1
-            
-            return tortoise
+                tortoise = head
+                while tortoise != hare:
+                    hare = hare.next
+                    tortoise = tortoise.next
+                
+                return tortoise
         
         return None
