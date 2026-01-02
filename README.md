@@ -40,6 +40,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | [0088-merge-sorted-array](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0198-house-robber) |
+| [0303-range-sum-query-immutable](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0303-range-sum-query-immutable) |
 | [0486-predict-the-winner](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0486-predict-the-winner) |
 | [0740-delete-and-earn](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0740-delete-and-earn) |
 | [0881-boats-to-save-people](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0881-boats-to-save-people) |
@@ -128,6 +129,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 ## Prefix Sum
 |  |
 | ------- |
+| [0303-range-sum-query-immutable](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0303-range-sum-query-immutable) |
 | [1004-max-consecutive-ones-iii](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/1004-max-consecutive-ones-iii) |
 ## Linked List
 |  |
@@ -149,6 +151,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 ## Design
 |  |
 | ------- |
+| [0303-range-sum-query-immutable](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0303-range-sum-query-immutable) |
 | [0707-design-linked-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0707-design-linked-list) |
 ## Stack
 |  |
