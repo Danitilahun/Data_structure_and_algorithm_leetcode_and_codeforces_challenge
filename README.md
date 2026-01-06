@@ -176,6 +176,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0700-search-in-a-binary-search-tree](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0700-search-in-a-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -186,8 +187,13 @@ The goal is to document each challenge thoroughly — including the problem stat
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0700-search-in-a-binary-search-tree](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0700-search-in-a-binary-search-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0104-maximum-depth-of-binary-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0700-search-in-a-binary-search-tree](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0700-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
