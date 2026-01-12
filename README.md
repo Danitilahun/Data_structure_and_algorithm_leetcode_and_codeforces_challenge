@@ -43,6 +43,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | [0303-range-sum-query-immutable](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0304-range-sum-query-2d-immutable) |
 | [0486-predict-the-winner](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0486-predict-the-winner) |
+| [0704-binary-search](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0724-find-pivot-index) |
 | [0740-delete-and-earn](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0740-delete-and-earn) |
 | [0881-boats-to-save-people](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0881-boats-to-save-people) |
@@ -125,6 +126,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 |  |
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0633-sum-of-square-numbers) |
+| [0704-binary-search](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0704-binary-search) |
 | [1004-max-consecutive-ones-iii](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/1004-max-consecutive-ones-iii) |
 ## Sliding Window
 |  |
