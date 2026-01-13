@@ -37,6 +37,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | ------- |
 | [0011-container-with-most-water](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0035-search-insert-position) |
 | [0088-merge-sorted-array](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0189-rotate-array) |
@@ -126,6 +127,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0035-search-insert-position) |
 | [0633-sum-of-square-numbers](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0633-sum-of-square-numbers) |
 | [0704-binary-search](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0704-binary-search) |
