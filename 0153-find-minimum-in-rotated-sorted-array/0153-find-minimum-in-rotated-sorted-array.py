@@ -1,9 +1,5 @@
 class Solution:
     def findMin(self, nums: List[int]) -> int:
-        """
-        Approach 1: Linear search 
-        - O(N) but the question needs O(log(n))
-        """
 
         low , high = 0 , len(nums) - 1
 
