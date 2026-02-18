@@ -53,6 +53,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | [0704-binary-search](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0724-find-pivot-index) |
 | [0740-delete-and-earn](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0740-delete-and-earn) |
+| [0746-min-cost-climbing-stairs](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0746-min-cost-climbing-stairs) |
 | [0881-boats-to-save-people](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0881-boats-to-save-people) |
 | [1004-max-consecutive-ones-iii](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/1004-max-consecutive-ones-iii) |
 | [1480-running-sum-of-1d-array](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/1480-running-sum-of-1d-array) |
@@ -65,6 +66,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | [0198-house-robber](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0198-house-robber) |
 | [0486-predict-the-winner](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0486-predict-the-winner) |
 | [0740-delete-and-earn](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0740-delete-and-earn) |
+| [0746-min-cost-climbing-stairs](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0746-min-cost-climbing-stairs) |
 ## Hash Table
 |  |
 | ------- |
