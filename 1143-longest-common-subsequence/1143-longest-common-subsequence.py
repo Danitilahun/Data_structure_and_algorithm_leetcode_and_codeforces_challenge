@@ -11,10 +11,11 @@ class Solution:
             if dp[index1][index2] != -1: return dp[index1][index2]
 
             match = 0
+            not_match = 0
             if text1[index1] == text2[index2]:
                 match = 1 + CommonSubsequenceLength(index1+1,index2+1)
-            
-            not_match = max(CommonSubsequenceLength(index1+1,index2) , CommonSubsequenceLength(index1,index2 + 1))
+            else:
+                not_match = max(CommonSubsequenceLength(index1+1,index2) , CommonSubsequenceLength(index1,index2 + 1))
 
             dp[index1][index2] = max(match, not_match)
 
