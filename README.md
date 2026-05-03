@@ -101,6 +101,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | ------- |
 | [0067-add-binary](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0067-add-binary) |
 | [0763-partition-labels](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0763-partition-labels) |
+| [0796-rotate-string](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0796-rotate-string) |
 | [1143-longest-common-subsequence](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/1143-longest-common-subsequence) |
 ## Bit Manipulation
 |  |
@@ -229,4 +230,8 @@ The goal is to document each challenge thoroughly — including the problem stat
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0039-combination-sum) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
