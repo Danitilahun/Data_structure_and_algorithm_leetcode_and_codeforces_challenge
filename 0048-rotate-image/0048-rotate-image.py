@@ -26,24 +26,3 @@ class Solution:
             
             cols-=1
         return matrix
-
-
-                
-
-
-
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
