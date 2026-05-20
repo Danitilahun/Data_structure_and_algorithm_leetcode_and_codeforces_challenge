@@ -2,13 +2,21 @@ class Solution:
     def findThePrefixCommonArray(self, A: List[int], B: List[int]) -> List[int]:
         n = len(A)
         answer = [0]* n
-
+        visited = {i:0 for i in range(1,n+1)}
+        count = 0
         for i in range(n):
-            count = 0
-            for j in range(i,-1,-1):
-                for k in range(i,-1,-1):
-                    if A[j] == B[k]:
-                        count+=1
+            visited[A[i]] +=1
+            visited[B[i]] +=1
+ 
+            if (A[i] == B[i]):
+                count += 1
+            else:
+                if (visited[A[i]] == 2):
+                    count += 1
+                if (visited[B[i]] == 2):
+                    count += 1
+            
+            
             answer[i] = count
         
         return answer
