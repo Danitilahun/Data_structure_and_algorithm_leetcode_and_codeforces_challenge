@@ -1,10 +1,5 @@
 class Solution:
     def minKBitFlips(self, nums: List[int], k: int) -> int:
-
-        """
-        nums = [0,1,0,0,1,0]
-        k= 4
-        """
         
         count = 0
 
@@ -12,6 +7,7 @@ class Solution:
         flips_count = [0] * (n+1)
         current_flips_count = 0
         flip_total = 0
+
         for ind in range(n-k+1):
             
             current_flips_count+=flips_count[ind]
