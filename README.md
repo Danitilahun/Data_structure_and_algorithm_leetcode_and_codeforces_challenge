@@ -26,6 +26,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | [0633-sum-of-square-numbers](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0633-sum-of-square-numbers) |
 | [0788-rotated-digits](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0788-rotated-digits) |
 | [2050-count-good-numbers](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2050-count-good-numbers) |
+| [2364-count-number-of-bad-pairs](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2364-count-number-of-bad-pairs) |
 ## Brainteaser
 |  |
 | ------- |
@@ -67,6 +68,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | [1480-running-sum-of-1d-array](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/1480-running-sum-of-1d-array) |
 | [1861-rotating-the-box](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/1861-rotating-the-box) |
 | [1991-find-the-middle-index-in-array](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/1991-find-the-middle-index-in-array) |
+| [2364-count-number-of-bad-pairs](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2364-count-number-of-bad-pairs) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 ## Dynamic Programming
@@ -87,6 +89,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | [0142-linked-list-cycle-ii](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0142-linked-list-cycle-ii) |
 | [0740-delete-and-earn](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0740-delete-and-earn) |
 | [0763-partition-labels](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0763-partition-labels) |
+| [2364-count-number-of-bad-pairs](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2364-count-number-of-bad-pairs) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 ## Recursion
@@ -251,4 +254,8 @@ The goal is to document each challenge thoroughly — including the problem stat
 |  |
 | ------- |
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0995-minimum-number-of-k-consecutive-bit-flips) |
+## Counting
+|  |
+| ------- |
+| [2364-count-number-of-bad-pairs](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2364-count-number-of-bad-pairs) |
 <!---LeetCode Topics End-->
