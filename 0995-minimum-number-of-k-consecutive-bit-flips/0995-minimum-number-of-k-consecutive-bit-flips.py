@@ -8,25 +8,24 @@ class Solution:
         current_flips_count = 0
         flip_total = 0
 
-        for ind in range(n-k+1):
+        for ind in range(n):
+
             
             current_flips_count+=flips_count[ind]
+            # print(current_flips_count,flips_count)
 
             flip = current_flips_count % 2
             
-            if (nums[ind] == 0 and flip == 0) or (nums[ind] == 1 and flip == 1):
+            if ind + k <= n and  ((nums[ind] == 0 and flip == 0) or (nums[ind] == 1 and flip == 1)):
                 flips_count[ind]+=1
                 flips_count[ind+k] =-1
                 flip_total +=1 
                 current_flips_count+=1
-
-
-        for ind in range(1,n):
-            flips_count[ind]+=flips_count[ind - 1]
-        
-        for ind in range(n):
-            if flips_count[ind]%2:
+            
+            if current_flips_count%2:
                 nums[ind] = 0 if nums[ind] == 1 else 1
+
+        # print(nums)
         
         impossiblity_check = any(nums[ind]==0 for ind in range(n))
 
