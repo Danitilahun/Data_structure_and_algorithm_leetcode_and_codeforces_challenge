@@ -62,6 +62,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | [0740-delete-and-earn](https://github.com/Danitilahun/Daily_data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0740-delete-and-earn) |
 | [0746-min-cost-climbing-stairs](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0746-min-cost-climbing-stairs) |
 | [0881-boats-to-save-people](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0881-boats-to-save-people) |
+| [0962-maximum-width-ramp](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0962-maximum-width-ramp) |
 | [0994-rotting-oranges](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0994-rotting-oranges) |
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0995-minimum-number-of-k-consecutive-bit-flips) |
 | [1004-max-consecutive-ones-iii](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/1004-max-consecutive-ones-iii) |
@@ -139,6 +140,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | [0763-partition-labels](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0763-partition-labels) |
 | [0876-middle-of-the-linked-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0876-middle-of-the-linked-list) |
 | [0881-boats-to-save-people](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0881-boats-to-save-people) |
+| [0962-maximum-width-ramp](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0962-maximum-width-ramp) |
 | [1861-rotating-the-box](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/1861-rotating-the-box) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 ## Sorting
@@ -209,6 +211,7 @@ The goal is to document each challenge thoroughly — including the problem stat
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0094-binary-tree-inorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0234-palindrome-linked-list) |
+| [0962-maximum-width-ramp](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0962-maximum-width-ramp) |
 ## Matrix
 |  |
 | ------- |
@@ -258,4 +261,8 @@ The goal is to document each challenge thoroughly — including the problem stat
 |  |
 | ------- |
 | [2364-count-number-of-bad-pairs](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/2364-count-number-of-bad-pairs) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0962-maximum-width-ramp](https://github.com/Danitilahun/Data_structure_and_algorithm_leetcode_and_codeforces_challenge/tree/master/0962-maximum-width-ramp) |
 <!---LeetCode Topics End-->
